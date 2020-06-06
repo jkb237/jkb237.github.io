@@ -44,12 +44,37 @@ Table of Content:
 @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono&display=swap');
 @font-face {
     font-family: 'gilroy-extrabold';
-    src: url('fonts/gilroy-extrabold-webfont.woff2') format('woff2'),
-         url('fonts/gilroy-extrabold-webfont.woff') format('woff');
+    src: url('../fonts/gilroy-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/gilroy-extrabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'gilroy-light';
+    src: url('../fonts/gilroy-light-webfont.woff2') format('woff2'),
+         url('../fonts/gilroy-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'gilroy';
+    src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+         url('../fonts/Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'gilroy-bold';
+    src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+         url('../fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .list {
@@ -70,12 +95,12 @@ a {
 body {
   line-height: 26px;
   font-size: 16px;
-  font-family: gilroy-extrabold;
+  font-family: gilroy;
   font-weight: normal;
   color: #777777; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto Mono", monospace;
+  font-family: gilroy-bold;
 }
 
 button:focus {
@@ -158,8 +183,8 @@ button:focus {
     .header_area .navbar .nav .nav-item {
       margin-right: 45px; }
       .header_area .navbar .nav .nav-item .nav-link {
-        font: 500 12px/120px "Roboto Mono", monospace;
-        font-size: 16px;
+        font: 500 12px/120px gilroy-bold;
+        font-size: 18px;
         color: #000;
         padding: 0px;
         display: inline-block; }
@@ -261,8 +286,8 @@ button:focus {
       color: #fff;
     }
   .logo-link {
-	  font-family: gilroy-extrabold;
-      font-size: 18px;
+	  font-family: gilroy-bold;
+      font-size: 20px;
       color: #000;
       padding: 0px;
       display: inline-block; }
