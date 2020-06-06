@@ -534,7 +534,6 @@ mark {
 }
 
 .figure-caption {
-
     font-size: 90%;
     color: #6c757d
 }
@@ -5080,7 +5079,6 @@ input[type=submit].btn-block {
     background-color: #dc3545
 }
 
-
 .badge-danger[href]:focus,
 .badge-danger[href]:hover {
     color: #fff;
@@ -5512,7 +5510,6 @@ input[type=submit].btn-block {
 }
 
 .list-group-item-danger.list-group-item-action:focus,
-
 .list-group-item-danger.list-group-item-action:hover {
     color: #721c24;
     background-color: #f1b0b7
@@ -9303,7 +9300,6 @@ a.text-dark:hover {
     }
     .table-bordered td,
     .table-bordered th {
-
         border: 1px solid #dee2e6 !important
     }
     .table-dark {
