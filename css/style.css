@@ -187,9 +187,7 @@ button:focus {
         font-size: 18px;
         color: #000;
         padding: 0px;
-        display: inline-block; }
-
-
+        display: inline-block;}
         .header_area .navbar .nav .nav-item .nav-link:after {
           display: none; }
       .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
@@ -250,7 +248,7 @@ button:focus {
               border-bottom: none; }
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
               background: #766dff;
-              color: #fff; }
+              color: #fff;}
         @media (min-width: 992px) {
           .header_area .navbar .nav .nav-item.submenu:hover ul {
             visibility: visible;
@@ -297,6 +295,9 @@ button:focus {
   }
 
   .logo-link:hover {
+    color: #A80000;
+  }
+  .nav-link:hover {
     color: #A80000;
   }
 .top_menu {
@@ -2844,7 +2845,7 @@ h6 {
         transition: all 300ms linear 0s;
         text-transform: uppercase; }
       .isotope_fillter .gallery_filter li:hover a, .isotope_fillter .gallery_filter li.active a {
-        color: #766dff; }
+        color: #A80000; }
 
 .gallery_f_inner {
   margin-bottom: -45px; }
@@ -2890,7 +2891,7 @@ h6 {
   .h_gallery_item:hover .g_img_item .light {
     opacity: 1; }
   .h_gallery_item:hover .g_item_text h4:hover {
-    color: #766dff; }
+    color: #A80000; }
 
 .more_btn {
   text-align: center;
