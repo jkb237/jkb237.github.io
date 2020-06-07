@@ -3034,20 +3034,20 @@ h6 {
 .social_widget p {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Roboto Mono", monospace;
-  color: #777777;
+  font-family: gilroy-bold;
+  color: #A80000;
   }
 .social_widget .list li {
   margin-right: 17px;
   display: inline-block; }
   .social_widget .list li a {
-    color: #cccccc;
+    color: #A80000;
     font-size: 14px;
     transition: all 300ms linear 0s; }
   .social_widget .list li:last-child {
     margin-right: 0px; }
   .social_widget .list li:hover a {
-    color: #766dff; }
+    color: #FFfFFF; }
 
 .copy_right_text {
   text-align: center;
