@@ -185,7 +185,7 @@ button:focus {
       .header_area .navbar .nav .nav-item .nav-link {
         font: 500 12px/120px gilroy-bold;
         font-size: 18px;
-        color: #000;
+        color: #818181;
         padding: 0px;
         display: inline-block;}
         .header_area .navbar .nav .nav-item .nav-link:after {
@@ -286,7 +286,7 @@ button:focus {
   .logo-link {
 	  font-family: gilroy-bold;
       font-size: 20px;
-      color: #000;
+      color: #818181;
       padding: 0px;
       display: inline-block; }
 
